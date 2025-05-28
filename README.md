@@ -75,6 +75,10 @@ GrowthEngine -> UI: Animate visual growth
 ```
 
 ## 🧩 **Class Diagram**
+
+This diagram shows the flow of a Pomodoro session from start to completion. It details how motivation is integrated mid-cycle and how visual growth feedback is triggered post-session.
+
+---
    <img src="diagrams/class.drawio.png" alt="Class Diagram" style="float: left; margin: 0 20px 20px 0; width: 400px;" />
 
 The class diagram shows the core components of the app architecture:

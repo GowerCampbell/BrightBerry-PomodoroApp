@@ -48,8 +48,6 @@ I would use **Blueberry Bloom** daily to manage my attention and structure my le
 
 <img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="900" />
 
-> **Note:** Crop the bottom of the image if needed to focus on the main interactions only.
-
 This diagram illustrates the primary interactions between a neurodivergent learner and the system. It highlights three main use cases:
 
 * **Start Timer**: Initiates a Pomodoro session that contributes to growth.

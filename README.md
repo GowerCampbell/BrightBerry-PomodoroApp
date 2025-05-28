@@ -84,30 +84,26 @@ This diagram shows the Pomodoro session flow — from start to feedback and grow
 
 ---
 
-### 🧩 **Class Diagram**
+<h3>🧩 Class Diagram</h3>
 
-<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+<img src="diagrams/class.drawio.png" alt="Class Diagram" style="float: left; width: 40%; margin-right: 20px; margin-bottom: 10px;" />
 
-  <img src="diagrams/class.drawio.png" alt="Class Diagram" style="width: 40%; max-width: 400px; height: auto;"/>
+<p>
+The class diagram outlines the core structure of the <strong>BrightBerry Bloom</strong> app. It demonstrates how the user interacts with time management, learning progression, and motivational support.
+</p>
 
-  <div style="flex: 1; min-width: 280px;">
-    <h3>Class Diagram Explanation</h3>
-    <p>
-      The class diagram outlines the core structure of the BrightBerry Bloom app. It demonstrates how the user interacts with time management, learning progression, and motivational support.
-    </p>
-    <ul>
-      <li><strong>User</strong>: Stores personal settings, preferences, and the brain map of learning chunks.</li>
-      <li><strong>Timer</strong>: Handles Pomodoro session timing and lifecycle control.</li>
-      <li><strong>MotivationEngine</strong>: Supplies spaced repetition quotes and learning tips.</li>
-      <li><strong>GrowthEngine</strong>: Visually rewards progress by animating garden growth.</li>
-      <li><strong>LearningChunk</strong>: Represents individual units of knowledge with associated metadata like title, content, and review date.</li>
-      <li><strong>GardenView</strong> and <strong>BrainMapView</strong>: Render the user interface for plant growth and learning visualization, respectively.</li>
-    </ul>
-    <p>
-      This architecture supports cognitive engagement by linking time, visual metaphors, and feedback loops — ideal for neurodivergent learners.
-    </p>
-  </div>
+<ul>
+  <li><strong>User</strong>: Stores personal settings, preferences, and the brain map of learning chunks.</li>
+  <li><strong>Timer</strong>: Handles Pomodoro session timing and lifecycle control.</li>
+  <li><strong>MotivationEngine</strong>: Supplies spaced repetition quotes and learning tips.</li>
+  <li><strong>GrowthEngine</strong>: Visually rewards progress by animating garden growth.</li>
+  <li><strong>LearningChunk</strong>: Represents units of knowledge with title, content, and next review date.</li>
+  <li><strong>GardenView</strong> and <strong>BrainMapView</strong>: Render the UI for plant growth and brain mapping.</li>
+</ul>
 
-</div>
+<p>
+This modular architecture supports focused learning, spaced repetition, and visual feedback — aligning with neurodivergent learning needs.
+</p>
 
----
+<div style="clear: both;"></div>
+

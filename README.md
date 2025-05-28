@@ -102,6 +102,9 @@ The class diagram outlines the core structure of the <strong>BrightBerry Bloom</
 </ul>
 
 <p>
+
+  📝 Final Notes
+This app, though conceptual in this form, illustrates the connection between behavior, attention, motivation, and learning using brain-based techniques from Learning How to Learn. It transforms time and learning into something you can see grow — one blueberry at a time.
 This modular architecture supports focused learning, spaced repetition, and visual feedback — aligning with neurodivergent learning needs.
 </p>
 

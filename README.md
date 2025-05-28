@@ -1,51 +1,46 @@
-## 📘 `README.md` — *Blueberry Bloom: A Learning Garden for the Neurodivergent Mind*
+# Blueberry Bloom 🌱
 
-### 🌿 Overview
+*A neurodivergence-friendly Pomodoro app for growing your learning garden.*
 
-**Blueberry Bloom** is a neurodivergence-friendly Pomodoro productivity and learning app that integrates principles from the **"Learning How to Learn"** course. It transforms focused time into a virtual garden, where users grow blueberries as a visual metaphor for building stronger neural pathways. Each Pomodoro session rewards users with growth progress, motivational quotes, and cognitive science-based learning tips (like chunking, active recall, and spaced repetition).
+[![Course](https://img.shields.io/badge/course-Learning%20How%20to%20Learn-blue)](https://www.coursera.org/learn/learning-how-to-learn)
+[![Status](https://img.shields.io/badge/status-concept-blue)]()
 
-The app is designed using visual storytelling inspired by plant-growing games to reduce cognitive overload and increase engagement for neurodivergent learners.
+## 🌿 Overview
 
----
+**Blueberry Bloom** is a productivity and learning app designed specifically for neurodivergent individuals. It integrates the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with key principles from the ["Learning How to Learn" course](https://www.coursera.org/learn/learning-how-to-learn). By transforming focused study time into a virtual garden where users grow blueberries, the app provides a visual metaphor for building stronger neural pathways. Each completed Pomodoro session rewards users with growth progress, motivational quotes, and tips based on cognitive science, such as chunking, active recall, and spaced repetition.
 
-### 🎯 Purpose
+The app's design, inspired by plant-growing games, aims to reduce cognitive overload and increase engagement, making it particularly suitable for neurodivergent learners.
 
-This project aims to:
+## 🎯 Purpose
 
-* Demonstrate learning and application of key cognitive strategies.
-* Help others visualize and interact with abstract concepts from the course.
-* Serve as a motivational and organizational tool tailored for neurodivergent users.
+This project serves multiple goals:
 
----
+- **Demonstrate Learning**: Apply and showcase key cognitive strategies from the "Learning How to Learn" course.
+- **Visualize Concepts**: Help users visualize and interact with abstract learning concepts through a tangible metaphor.
+- **Motivational Tool**: Provide a structured and rewarding way for neurodivergent users to manage their learning and productivity.
 
-### 🧠 Course Concepts Addressed
+## 🧠 Course Concepts Addressed
 
-* **Chunking**: Users collect "blueberries" as symbols for learning chunks.
-* **Spaced Repetition**: Knowledge snippets resurface over time with interactive feedback.
-* **Focused and Diffuse Modes**: Timer cycles guide users through deep focus and brain-relaxation phases.
-* **Procrastination and Habit Formation**: Integrated rewards and reminders reinforce consistent usage.
+- **Chunking**: Users collect "blueberries" as symbols for mastering learning chunks.
+- **Spaced Repetition**: Knowledge snippets are revisited over time with interactive feedback to enhance retention.
+- **Focused and Diffuse Modes**: The timer cycles guide users through periods of deep focus followed by relaxation, optimizing both modes of thinking.
+- **Procrastination and Habit Formation**: Integrated rewards and reminders help build consistent study habits and overcome procrastination.
 
----
+## 🌱 How It’s Used in Real Life
 
-### 🌱 How It’s Used in Real Life
+I use **Blueberry Bloom** daily to manage my attention and structure my learning time. The visual metaphor of cultivating blueberries mirrors the effort and satisfaction of growing my understanding. It keeps me grounded, motivated, and connected to the learning process.
 
-I use **Blueberry Bloom** daily to manage my attention and structure my learning time. The visual metaphor of cultivating blueberries mirrors the real effort and satisfaction that comes from growing my understanding. It helps me stay grounded, motivated, and connected to the learning process.
+## ✨ Features
 
----
-
-### ✨ Features
-
-* 🌳 Grow blueberry bushes with each Pomodoro cycle.
-* 🧠 Random motivational quotes and tips using spaced repetition techniques.
-* 🧩 Unlockable chunks (knowledge berries) stored in a visual "brain map".
-* 📅 Custom schedule planner to match focus rhythms.
-* 🎨 Interface designed in Photoshop — smooth edges, no harsh boxes.
-
----
+- 🌳 **Grow Blueberry Bushes**: Each Pomodoro cycle contributes to the growth of your virtual garden.
+- 🧠 **Motivational Quotes & Tips**: Receive random quotes and learning tips that reinforce key concepts through spaced repetition.
+- 🧩 **Unlockable Knowledge Chunks**: Store and visualize your learning progress in a "brain map."
+- 📅 **Custom Schedule Planner**: Tailor your focus sessions to match your personal rhythms.
+- 🎨 **Neurodivergent-Friendly Interface**: Designed with smooth edges and no harsh boxes to minimize cognitive strain.
 
 ## 📄 Use Case Diagram
 
-```plaintext
+```
                 +---------------------+
                 |     Neurodivergent  |
                 |       Learner       |
@@ -58,11 +53,9 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 [Earn Blueberries]   [Track Learning]   [Motivation / Recall]
 ```
 
----
-
 ## 🔁 Sequence Diagram
 
-```plaintext
+```
 User -> UI: Start Pomodoro
 UI -> Timer: Start 25-minute focus timer
 Timer -> UI: Countdown and progress feedback
@@ -73,11 +66,9 @@ UI -> GrowthEngine: Add blueberry growth
 GrowthEngine -> UI: Animate visual growth
 ```
 
----
-
 ## 🧩 Class Diagram
 
-```plaintext
+```
 +------------------+
 |     User         |
 +------------------+
@@ -115,10 +106,7 @@ GrowthEngine -> UI: Animate visual growth
 +------------------+         +-------------------+
 ```
 
----
-
 ## 📝 Final Notes
 
-This app, though conceptual in this form, demonstrates the connection between behavior, attention, motivation, and learning using the brain-based techniques from *Learning How to Learn*. It transforms time and learning into something you can **see grow** — one blueberry at a time.
-
----
+This app, though conceptual in this form, illustrates the connection between behavior, attention, motivation, and learning using brain-based techniques from *Learning How to Learn*. It transforms time and learning into something you can **see grow** — one blueberry at a time.
+```

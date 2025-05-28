@@ -1,5 +1,5 @@
 # BrightBerry Bloom 🌱
-
+Created By Gower Campbell
 *A neurodivergence-friendly Pomodoro app for growing your learning garden.*
 
 [![Course](https://img.shields.io/badge/course-Learning%20How%20to%20Learn-green)](https://www.coursera.org/learn/learning-how-to-learn)

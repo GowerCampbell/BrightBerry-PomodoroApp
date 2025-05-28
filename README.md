@@ -1,4 +1,4 @@
-# Blueberry Bloom 🌱
+# BrightBerry Bloom 🌱
 
 *A neurodivergence-friendly Pomodoro app for growing your learning garden.*
 

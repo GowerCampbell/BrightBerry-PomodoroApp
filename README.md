@@ -75,7 +75,18 @@ GrowthEngine -> UI: Animate visual growth
 ```
 
 ## 🧩 **Class Diagram**
-   <img src="diagrams/class.drawio.png" alt="Class Diagram" width="600"/>
+   <img src="diagrams/class.drawio.png" alt="Class Diagram" style="float: left; margin: 0 20px 20px 0; width: 400px;" />
+
+The class diagram shows the core components of the app architecture:
+
+- **User**: Represents settings, preferences, and learning data.
+- **Timer**: Controls session duration, tracking when a Pomodoro starts and ends.
+- **MotivationEngine**: Supplies quotes and learning tips aligned with spaced repetition.
+- **GrowthEngine**: Updates the garden and visual feedback after sessions.
+- **LearningChunk**: Stores knowledge pieces with metadata like `nextReviewDate`.
+- **GardenView & BrainMapView**: Handle UI rendering of the virtual garden and user’s learning progress.
+
+Together, these components model both the functional and motivational elements of the app—blending productivity with neurodivergent-friendly design.
 
 
 ---

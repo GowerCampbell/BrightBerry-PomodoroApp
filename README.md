@@ -76,24 +76,30 @@ GrowthEngine -> UI: Animate visual growth
 
 ## 🧩 **Class Diagram**
 
-This diagram shows the flow of a Pomodoro session from start to completion. It details how motivation is integrated mid-cycle and how visual growth feedback is triggered post-session.
+<div style="display: flex; align-items: flex-start; gap: 20px;">
 
----
-   <img src="diagrams/class.drawio.png" alt="Class Diagram" style="float: left; margin: 0 20px 20px 0; width: 400px;" />
+  <img src="diagrams/class.drawio.png" alt="Class Diagram" style="width: 40%; max-width: 400px; height: auto;"/>
 
-The class diagram shows the core components of the app architecture:
+  <div>
+    <h3>Class Diagram Explanation</h3>
+    <p>
+      The class diagram outlines the key components of BrightBerry Bloom's architecture:
+    </p>
+    <ul>
+      <li><strong>User</strong>: Stores settings and learning data.</li>
+      <li><strong>Timer</strong>: Manages Pomodoro sessions.</li>
+      <li><strong>MotivationEngine</strong>: Fetches quotes and tips.</li>
+      <li><strong>GrowthEngine</strong>: Updates visual garden growth.</li>
+      <li><strong>LearningChunk</strong>: Represents knowledge units and review metadata.</li>
+      <li><strong>Views</strong>: <em>GardenView</em> and <em>BrainMapView</em> handle the UI rendering.</li>
+    </ul>
+    <p>
+      This structure visually links learning progress, motivation, and feedback, tailored for neurodivergent users.
+    </p>
+  </div>
 
-- **User**: Represents settings, preferences, and learning data.
-- **Timer**: Controls session duration, tracking when a Pomodoro starts and ends.
-- **MotivationEngine**: Supplies quotes and learning tips aligned with spaced repetition.
-- **GrowthEngine**: Updates the garden and visual feedback after sessions.
-- **LearningChunk**: Stores knowledge pieces with metadata like `nextReviewDate`.
-- **GardenView & BrainMapView**: Handle UI rendering of the virtual garden and user’s learning progress.
+</div>
 
-Together, these components model both the functional and motivational elements of the app—blending productivity with neurodivergent-friendly design.
-
-
----
 
 ## 📝 Final Notes
 

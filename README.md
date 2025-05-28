@@ -46,7 +46,7 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 ---
 
 ## 📄 🧠 **Use Case Diagram**
-  ![Use Case Diagram](diagrams/usecase.drawio.png)
+   <img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="350"/>
 
 ```
                 +---------------------+
@@ -62,7 +62,7 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 ```
 
 ## 🔁 **Sequence Diagram**
-  ![Sequence Diagram](diagrams/sequence.drawio.png)
+  <img src="diagrams/sequence.drawio.png" alt="Sequence Diagram" style="width:50%;"/>
 
 ```
 User -> UI: Start Pomodoro
@@ -76,45 +76,9 @@ GrowthEngine -> UI: Animate visual growth
 ```
 
 ## 🧩 **Class Diagram**
-  ![Class Diagram](diagrams/class.drawio.png)
+   <img src="diagrams/class.drawio.png" alt="Class Diagram" width="350"/>
 
-```
-+------------------+
-|     User         |
-+------------------+
-| +id              |
-| +settings        |
-| +brainMap        |
-+------------------+
-        |
-        |
-        v
-+------------------+        +------------------+
-|    Timer         |        | MotivationEngine |
-+------------------+        +------------------+
-| +startSession()  |        | +getQuote()      |
-| +endSession()    |        | +getSnippet()    |
-+------------------+        +------------------+
 
-        |                            |
-        v                            v
-
-+------------------+        +------------------+
-|  GrowthEngine    |        |   LearningChunk  |
-+------------------+        +------------------+
-| +growBerry()     |        | +title           |
-| +updateGarden()  |        | +content         |
-+------------------+        | +nextReviewDate  |
-                            +------------------+
-
-        ^                             ^
-        |                             |
-+------------------+         +-------------------+
-|    GardenView    |         |   BrainMapView    |
-+------------------+         +-------------------+
-| +renderGarden()  |         | +renderChunks()   |
-+------------------+         +-------------------+
-```
 ---
 
 ## 📝 Final Notes

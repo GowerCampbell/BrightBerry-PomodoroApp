@@ -46,7 +46,7 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 ---
 
 ## 📄 🧠 **Use Case Diagram**
-  ![Use Case Diagram](./assets/diagrams/drawio/usecase.drawio.png)
+  ![Use Case Diagram](diagrams/usecase.drawio.png)
 
 ```
                 +---------------------+
@@ -62,7 +62,7 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 ```
 
 ## 🔁 **Sequence Diagram**
-  ![Sequence Diagram](./assets/diagrams/drawio/sequence.drawio.png)
+  ![Sequence Diagram](diagrams/sequence.drawio.png)
 
 ```
 User -> UI: Start Pomodoro
@@ -76,7 +76,7 @@ GrowthEngine -> UI: Animate visual growth
 ```
 
 ## 🧩 **Class Diagram**
-  ![Class Diagram](./assets/diagrams/drawio/class.drawio.png)
+  ![Class Diagram](diagrams/class.drawio.png)
 
 ```
 +------------------+

@@ -45,7 +45,7 @@ I would use **Blueberry Bloom** daily to manage my attention and structure my le
 
 ### 📄 🧠 **Use Case Diagram**
 
-<img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="900"/>
+<img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="900" />
 
 > **Note:** Crop the bottom of the image if needed to focus on the main interactions only.
 
@@ -80,7 +80,7 @@ This diagram shows the Pomodoro session flow — from start to feedback and grow
 
 <h3>🧩 Class Diagram</h3>
 
-<img src="diagrams/class.drawio.png" alt="Class Diagram" style="float: left; width: 40%; margin-right: 20px; margin-bottom: 10px;" />
+<img src="diagrams/class.drawio.png" alt="Class Diagram" style="float: left; width: 80%; margin-right: 20px; margin-bottom: 10px;" />
 
 <p>
 The class diagram outlines the core structure of the <strong>BrightBerry Bloom</strong> app. It demonstrates how the user interacts with time management, learning progression, and motivational support.

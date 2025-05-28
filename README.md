@@ -43,10 +43,9 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 
 # 📊 Diagrams
 
----
 
 ## 📄 🧠 **Use Case Diagram**
-   <img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="350"/>
+   <img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="900"/>
 
 ```
                 +---------------------+
@@ -62,7 +61,7 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 ```
 
 ## 🔁 **Sequence Diagram**
-  <img src="diagrams/sequence.drawio.png" alt="Sequence Diagram" style="width:20%;"/>
+  <img src="diagrams/sequence.drawio.png" alt="Sequence Diagram" style="width:90%;"/>
 
 ```
 User -> UI: Start Pomodoro

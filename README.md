@@ -30,7 +30,7 @@ This project serves multiple goals:
 
 ## 🌱 How It’s Used in Real Life
 
-I would use **Blueberry Bloom** daily to manage my attention and structure my learning time. The visual metaphor of cultivating blueberries mirrors the effort and satisfaction of growing my understanding. It keeps me grounded, motivated, and connected to the learning process.
+I would use **Blueberry Bloom** daily to manage my attention and structure my learning time. The visual metaphor of cultivating berries mirrors the effort and satisfaction of growing my understanding. It keeps you grounded, motivated, and connected to the learning process.
 
 ## ✨ Features
 
@@ -97,7 +97,7 @@ The class diagram outlines the core structure of the <strong>BrightBerry Bloom</
 <p>
 
 ##  📝 Final Notes
-This app, though conceptual in this form, illustrates the connection between behavior, attention, motivation, and learning using brain-based techniques from Learning How to Learn. It transforms time and learning into something you can see grow — one blueberry at a time.
+This app, though conceptual in this form, illustrates the connection between behavior, attention, motivation, and learning using brain-based techniques from Learning How to Learn. It transforms time and learning into something you can see grow — one berry at a time.
 This modular architecture supports focused learning, spaced repetition, and visual feedback — aligning with neurodivergent learning needs.
 </p>
 

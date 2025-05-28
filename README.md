@@ -8,7 +8,7 @@
 
 ## 🌿 Overview
 
-**Blueberry Bloom** is a productivity and learning app designed specifically for neurodivergent individuals. It integrates the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with key principles from the ["Learning How to Learn" course](https://www.coursera.org/learn/learning-how-to-learn). By transforming focused study time into a virtual garden where users grow blueberries, the app provides a visual metaphor for building stronger neural pathways. Each completed Pomodoro session rewards users with growth progress, motivational quotes, and tips based on cognitive science, such as chunking, active recall, and spaced repetition.
+**Blueberry Bloom** is a productivity and learning app I designed specifically for neurodivergent individuals. It integrates the [Pomodoro technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) with key principles from the ["Learning How to Learn" course](https://www.coursera.org/learn/learning-how-to-learn). By transforming focused study time into a virtual garden where users grow berries, the app provides a visual metaphor for building stronger neural pathways. Each completed Pomodoro session rewards users with growth progress, motivational quotes, and tips based on cognitive science, such as chunking, active recall, and spaced repetition.
 
 The app's design, inspired by plant-growing games, aims to reduce cognitive overload and increase engagement, making it particularly suitable for neurodivergent learners.
 
@@ -29,7 +29,7 @@ This project serves multiple goals:
 
 ## 🌱 How It’s Used in Real Life
 
-I use **Blueberry Bloom** daily to manage my attention and structure my learning time. The visual metaphor of cultivating blueberries mirrors the effort and satisfaction of growing my understanding. It keeps me grounded, motivated, and connected to the learning process.
+I would use **Blueberry Bloom** daily to manage my attention and structure my learning time. The visual metaphor of cultivating blueberries mirrors the effort and satisfaction of growing my understanding. It keeps me grounded, motivated, and connected to the learning process.
 
 ## ✨ Features
 
@@ -38,12 +38,6 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 - 🧩 **Unlockable Knowledge Chunks**: Store and visualize your learning progress in a "brain map."
 - 📅 **Custom Schedule Planner**: Tailor your focus sessions to match your personal rhythms.
 - 🎨 **Neurodivergent-Friendly Interface**: Designed with smooth edges and no harsh boxes to minimize cognitive strain.
-
----
-
-# 📊 Diagrams
-
-Here is your updated `📊 Diagrams` section, with the **Class Diagram** on the left and the **explanation on the right**, using responsive HTML that works in most Markdown renderers:
 
 ---
 

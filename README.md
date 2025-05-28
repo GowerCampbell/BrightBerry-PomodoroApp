@@ -4,6 +4,7 @@
 
 [![Course](https://img.shields.io/badge/course-Learning%20How%20to%20Learn-blue)](https://www.coursera.org/learn/learning-how-to-learn)
 [![Status](https://img.shields.io/badge/status-concept-blue)]()
+[![Coming Soon!](https://img.shields.io/badge/status-concept-red)]()
 
 ## 🌿 Overview
 

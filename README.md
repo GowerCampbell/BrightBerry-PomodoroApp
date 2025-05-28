@@ -43,65 +43,71 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 
 # 📊 Diagrams
 
+Here is your updated `📊 Diagrams` section, with the **Class Diagram** on the left and the **explanation on the right**, using responsive HTML that works in most Markdown renderers:
 
-## 📄 🧠 **Use Case Diagram**
-   <img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="900"/>
+---
+
+## 📊 Diagrams
+
+### 📄 🧠 **Use Case Diagram**
+
+<img src="diagrams/usecase.drawio.png" alt="Use Case Diagram" width="900"/>
+
+> **Note:** Crop the bottom of the image if needed to focus on the main interactions only.
+
+This diagram illustrates the primary interactions between a neurodivergent learner and the system. It highlights three main use cases:
+
+* **Start Timer**: Initiates a Pomodoro session that contributes to growth.
+* **View Brain Map**: Lets the user visualize learned "chunks" and their progress.
+* **Review Tips**: Offers motivational content and cognitive tips to reinforce learning.
+
+Each action leads to meaningful feedback — like earning blueberries or reinforcing memory — helping build consistency and engagement.
+
+---
+
+### 🔁 **Sequence Diagram**
+
+<img src="diagrams/sequence.drawio.png" alt="Sequence Diagram" style="width:90%;"/>
 
 ```
-                +---------------------+
-                |     Neurodivergent  |
-                |       Learner       |
-                +---------------------+
-                          |
-     +--------------------+-------------------+
-     |                    |                   |
-[Start Timer]     [View Brain Map]     [Review Tips]
-     |                    |                   |
-[Earn Blueberries]   [Track Learning]   [Motivation / Recall]
+User -> UI: Start Pomodoro  
+UI -> Timer: Start 25-minute focus timer  
+Timer -> UI: Countdown and progress feedback  
+Timer -> MotivationEngine: Fetch quote/snippet  
+MotivationEngine -> UI: Display motivational quote/snippet  
+Timer -> UI: Notify session complete  
+UI -> GrowthEngine: Add blueberry growth  
+GrowthEngine -> UI: Animate visual growth  
 ```
 
-## 🔁 **Sequence Diagram**
-  <img src="diagrams/sequence.drawio.png" alt="Sequence Diagram" style="width:90%;"/>
+This diagram shows the Pomodoro session flow — from start to feedback and growth — with motivation elements integrated throughout the session.
 
-```
-User -> UI: Start Pomodoro
-UI -> Timer: Start 25-minute focus timer
-Timer -> UI: Countdown and progress feedback
-Timer -> MotivationEngine: Fetch quote/snippet
-MotivationEngine -> UI: Display motivational quote/snippet
-Timer -> UI: Notify session complete
-UI -> GrowthEngine: Add blueberry growth
-GrowthEngine -> UI: Animate visual growth
-```
+---
 
-## 🧩 **Class Diagram**
+### 🧩 **Class Diagram**
 
-<div style="display: flex; align-items: flex-start; gap: 20px;">
+<div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
 
   <img src="diagrams/class.drawio.png" alt="Class Diagram" style="width: 40%; max-width: 400px; height: auto;"/>
 
-  <div>
+  <div style="flex: 1; min-width: 280px;">
     <h3>Class Diagram Explanation</h3>
     <p>
-      The class diagram outlines the key components of BrightBerry Bloom's architecture:
+      The class diagram outlines the core structure of the BrightBerry Bloom app. It demonstrates how the user interacts with time management, learning progression, and motivational support.
     </p>
     <ul>
-      <li><strong>User</strong>: Stores settings and learning data.</li>
-      <li><strong>Timer</strong>: Manages Pomodoro sessions.</li>
-      <li><strong>MotivationEngine</strong>: Fetches quotes and tips.</li>
-      <li><strong>GrowthEngine</strong>: Updates visual garden growth.</li>
-      <li><strong>LearningChunk</strong>: Represents knowledge units and review metadata.</li>
-      <li><strong>Views</strong>: <em>GardenView</em> and <em>BrainMapView</em> handle the UI rendering.</li>
+      <li><strong>User</strong>: Stores personal settings, preferences, and the brain map of learning chunks.</li>
+      <li><strong>Timer</strong>: Handles Pomodoro session timing and lifecycle control.</li>
+      <li><strong>MotivationEngine</strong>: Supplies spaced repetition quotes and learning tips.</li>
+      <li><strong>GrowthEngine</strong>: Visually rewards progress by animating garden growth.</li>
+      <li><strong>LearningChunk</strong>: Represents individual units of knowledge with associated metadata like title, content, and review date.</li>
+      <li><strong>GardenView</strong> and <strong>BrainMapView</strong>: Render the user interface for plant growth and learning visualization, respectively.</li>
     </ul>
     <p>
-      This structure visually links learning progress, motivation, and feedback, tailored for neurodivergent users.
+      This architecture supports cognitive engagement by linking time, visual metaphors, and feedback loops — ideal for neurodivergent learners.
     </p>
   </div>
 
 </div>
 
-
-## 📝 Final Notes
-
-This app, though conceptual in this form, illustrates the connection between behavior, attention, motivation, and learning using brain-based techniques from *Learning How to Learn*. It transforms time and learning into something you can **see grow** — one blueberry at a time.
-
+---

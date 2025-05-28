@@ -39,7 +39,14 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 - 📅 **Custom Schedule Planner**: Tailor your focus sessions to match your personal rhythms.
 - 🎨 **Neurodivergent-Friendly Interface**: Designed with smooth edges and no harsh boxes to minimize cognitive strain.
 
-## 📄 Use Case Diagram
+---
+
+# 📊 Diagrams
+
+---
+
+## 📄 🧠 **Use Case Diagram**
+  ![Use Case Diagram](./assets/diagrams/drawio/usecase.drawio.png)
 
 ```
                 +---------------------+
@@ -54,7 +61,8 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 [Earn Blueberries]   [Track Learning]   [Motivation / Recall]
 ```
 
-## 🔁 Sequence Diagram
+## 🔁 **Sequence Diagram**
+  ![Sequence Diagram](./assets/diagrams/drawio/sequence.drawio.png)
 
 ```
 User -> UI: Start Pomodoro
@@ -67,7 +75,8 @@ UI -> GrowthEngine: Add blueberry growth
 GrowthEngine -> UI: Animate visual growth
 ```
 
-## 🧩 Class Diagram
+## 🧩 **Class Diagram**
+  ![Class Diagram](./assets/diagrams/drawio/class.drawio.png)
 
 ```
 +------------------+
@@ -106,6 +115,7 @@ GrowthEngine -> UI: Animate visual growth
 | +renderGarden()  |         | +renderChunks()   |
 +------------------+         +-------------------+
 ```
+---
 
 ## 📝 Final Notes
 

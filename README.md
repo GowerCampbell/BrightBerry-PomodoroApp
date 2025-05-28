@@ -110,4 +110,4 @@ GrowthEngine -> UI: Animate visual growth
 ## 📝 Final Notes
 
 This app, though conceptual in this form, illustrates the connection between behavior, attention, motivation, and learning using brain-based techniques from *Learning How to Learn*. It transforms time and learning into something you can **see grow** — one blueberry at a time.
-```
+

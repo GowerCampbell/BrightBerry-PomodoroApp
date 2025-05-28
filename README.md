@@ -62,7 +62,7 @@ I use **Blueberry Bloom** daily to manage my attention and structure my learning
 ```
 
 ## 🔁 **Sequence Diagram**
-  <img src="diagrams/sequence.drawio.png" alt="Sequence Diagram" style="width:50%;"/>
+  <img src="diagrams/sequence.drawio.png" alt="Sequence Diagram" style="width:20%;"/>
 
 ```
 User -> UI: Start Pomodoro
@@ -76,7 +76,7 @@ GrowthEngine -> UI: Animate visual growth
 ```
 
 ## 🧩 **Class Diagram**
-   <img src="diagrams/class.drawio.png" alt="Class Diagram" width="350"/>
+   <img src="diagrams/class.drawio.png" alt="Class Diagram" width="600"/>
 
 
 ---
